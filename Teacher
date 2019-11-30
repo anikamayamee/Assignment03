@@ -1,0 +1,25 @@
+public class Teacher{
+  String name = " ";
+  String subject = " ";
+  String course = " ";
+  public Teacher(){
+  }
+  public Teacher(String n, String s){
+   this.name = n;
+    this.subject = s;
+   
+  }
+  public void addCourse(Course c){
+    course += c.course + "\n";
+  }
+  public void printDetail(){
+    System.out.println("========================");
+    System.out.println("Name: " + name);
+    System.out.println("Department: " + subject);
+    System.out.println("List of courses");
+    System.out.println("========================");
+    System.out.print(course);
+    System.out.println("========================");
+  }
+  
+}
