@@ -1,0 +1,15 @@
+public class Student{
+  public String name = " ";
+  public static int numberofStudents = 0;
+  
+  public Student(){
+    this.name = "default name";
+    numberofStudents++;
+  }
+  public Student(String name){
+    this.name = name;
+    numberofStudents++;
+  }
+  public String getName(){
+    return name;
+  }
