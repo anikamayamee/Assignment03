@@ -1,0 +1,6 @@
+public class Printer{
+  public void printDetail(Student1 s){
+    System.out.println("Name of the Student1: "+s.name);
+    System.out.println("ID of the Student1: "+s.id);
+  }
+}
